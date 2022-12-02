@@ -2,7 +2,7 @@
 
 You can find the link for day 1, 2022 [here](https://adventofcode.com/2022/day/1). This folder will provide complete solutions for part 1 and part 2 of day 1. I highly recommend trying to solve these problems yourself instead of just copying my code (you will learn a lot more).
 
-Thus file will explain what the problem is and how to run the code. Explanation of the code will be in comments within the code itself (lines that start with `#`).
+This file will explain what the problem is and how to run the code. Explanation of the code will be in comments within the code itself (lines that start with `#`).
 
 ## Setup
 
@@ -56,6 +56,8 @@ python3 ./part-1-calorie-counting.py
 ## Part 2
 
 We have the same setup as in [part 1](#part-1), but this time we need to find the the top 3 elves and add all of their calories together. You can also use the same calories.txt file found in [setup](#setup).
+
+### Run the Code
 
 ```bash
 python3 ./part-2-calorie-counting.py
