@@ -6,7 +6,7 @@ NOTE: This code was used from GitHub User [Phippre](https://github.com/Phippre/A
 
 ## Setup
 
-To run this code, you should get the input from [this link](https://adventofcode.com/2022/day/8/input) and paste it into `logs.txt` but my input is already provided as a sample. You should also make sure to have Python installed (I use Python 3.10.8 but it should work with most versions).
+To run this code, you should get the input from [this link](https://adventofcode.com/2022/day/8/input) and paste it into `logs.txt` but my input is already provided as a sample. You should also make sure to have Python installed (I use Python 3.10.7 but it should work with most versions).
 
 # Run The Code
 

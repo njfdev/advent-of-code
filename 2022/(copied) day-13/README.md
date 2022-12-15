@@ -6,7 +6,7 @@ NOTE: This code was used from GitHub User [PetchyAL](https://github.com/PetchyAL
 
 ## Setup
 
-To run this code, you should get the input from [this link](https://adventofcode.com/2022/day/13/input) and paste it into `elevations.txt` but my input is already provided as a sample. You should also make sure to have Python installed (I use Python 3.10.12 but it should work with most versions).
+To run this code, you should get the input from [this link](https://adventofcode.com/2022/day/13/input) and paste it into `elevations.txt` but my input is already provided as a sample. You should also make sure to have Python installed (I use Python 3.10.7 but it should work with most versions).
 
 # Run The Code
 
