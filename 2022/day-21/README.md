@@ -1,6 +1,6 @@
 # Day 21 - Advent of Code
 
-You can find the link for day 21, 2122 [here](https://adventofcode.com/2122/day/21). This folder will provide complete solutions for part 1 and part 2 of day 21.
+You can find the link for day 21, 2022 [here](https://adventofcode.com/2022/day/21). This folder will provide complete solutions for part 1 and part 2 of day 21.
 
 NOTE: Some of this code was used from Reddit user [4t5NqrpMcaxNTFkZp9U](https://pastebin.com/h7uw9Hmn).
 
