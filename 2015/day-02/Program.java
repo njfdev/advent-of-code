@@ -12,12 +12,16 @@ public class Program {
       ArrayList<String> input = getInput();
 
       int totalWrappingPaper = 0;
+      int totalRibbon = 0; 
 
       for (String dimension : input) {
-        totalWrappingPaper += getNeededWrappingPaper(getDimensionsFromString(dimension));
+        int[] dim = getDimensionsFromString(dimension);
+        totalWrappingPaper += getNeededWrappingPaper(dim);
+        totalRibbon += getNeededRibbon(dim);
       }
 
       System.out.println("The needed square feet of wrapping paper is: " + totalWrappingPaper);
+      System.out.println("The needed feet of ribbon is: " + totalRibbon);
 
   }
 
@@ -57,6 +61,23 @@ public class Program {
     }
 
     return 2*faces[0] + 2*faces[1] + 2*faces[2] + smallestFace;
+  }
+
+  public static int getNeededRibbon(int[] dim) {
+    int[] perimeters = new int[3];
+    perimeters[0] = dim[0]*2+dim[1]*2;
+    perimeters[1] = dim[0]*2+dim[2]*2;
+    perimeters[2] = dim[1]*2+dim[2]*2;
+
+    int smallestPerimeter = perimeters[0];
+
+    for (int perim : perimeters) {
+      if (perim < smallestPerimeter) {
+        smallestPerimeter = perim;
+      }
+    }
+
+    return smallestPerimeter + dim[0]*dim[1]*dim[2];
   }
 
   public static ArrayList<String> getInput() {
